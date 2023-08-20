@@ -1,0 +1,27 @@
+* {
+    font-family: sans-serif;
+    text-align: center;
+}
+.home {
+    font-size: 40px;
+    padding: 70px;
+    background-color: rgb(255, 238, 218);
+    margin: 30px;
+}
+.homelist {
+    font-size: 30px;
+    padding: 50px;
+    background-color: rgb(111, 252, 221);
+    margin: -10px 30px 10px 30px;
+
+
+}
+.list {
+    list-style: none;
+    display: flex;
+    flex: auto;
+}
+li {
+    background-color: rgb(255, 238, 218);
+    flex: auto;
+}
