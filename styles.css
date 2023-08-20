@@ -2,26 +2,31 @@
     font-family: sans-serif;
     text-align: center;
 }
-.home {
+.header {
     font-size: 40px;
-    padding: 70px;
-    background-color: rgb(255, 238, 218);
+    color: rgb(88, 143, 131);
+    padding: 1px 70px;
+    background-color: rgb(236, 216, 192);
+    border: 2px solid rgb(135, 209, 191);
     margin: 30px;
 }
-.homelist {
-    font-size: 30px;
-    padding: 50px;
-    background-color: rgb(111, 252, 221);
-    margin: -10px 30px 10px 30px;
-
-
-}
-.list {
-    list-style: none;
+.list-container {
+    padding: 15px;
+    background: rgb(84, 196, 171);
+    margin: -10px 30px;
     display: flex;
-    flex: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    flex-wrap: wrap;
 }
-li {
-    background-color: rgb(255, 238, 218);
-    flex: auto;
+.list-container div {
+    font-size: 30px;
+    background: rgb(255, 230, 230);
+    border: 1px solid rgb(231, 184, 184);
+    height: 50px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
